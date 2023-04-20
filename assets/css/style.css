@@ -1,0 +1,107 @@
+body {
+    font-family:  Geneva,"Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Verdana, sans-serif;
+    background-image: linear-gradient(to bottom, #000000 0%, #3b3b3b 30% , #E8F4F5 80%);
+}
+
+.header{
+    height: 10em;
+    padding: 6em;
+    background-image: url(../imgs/header.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1{
+    margin: 0px;
+    font-weight: 500;
+    font-size: 3em;
+}
+
+.header p{
+    color: pink;
+    text-shadow: 1px 1px 1px black;
+    font-size: 1em;
+}
+
+.resaltar-titulo-letra{
+    color: pink;
+    font-size: 1.1em;
+    font-weight: 500;
+    text-shadow: 1px 1px 1px black;
+}
+
+.productos {
+    width: 80%;
+    margin: auto;
+}
+
+.productos table{
+    margin: auto;
+}
+
+.productos td {
+    text-align: center; 
+    vertical-align: middle;
+    padding-top: 4%;
+    overflow: hidden;
+}
+
+.productos img:hover{
+    transform: scale(1.5);
+}
+
+.productos img {
+    width: 50%;
+    transition: transform 1s ease;
+    border-radius: 10px;
+}
+
+.productos p{
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.resaltar-texto{
+    text-shadow: 1px 1px 1px black;
+}
+
+.desenfoque-descripcion{
+    border-radius: 50px;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 1em;
+    background-color: pink;
+}
+
+
+.footer {
+    line-height: 3em;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: 900;
+}
+
+.footer table {
+    margin: auto;
+}
+
+.footer td{
+    padding: 1em;
+}
+
+.footer #logo-facebook{
+    padding-top: 1em;
+    width: 3em;
+    height: 3em;
+}
+
+.footer #logo-instagram{
+    padding-top: 1em;
+    width: 4em;
+    height: 4em;
+}
